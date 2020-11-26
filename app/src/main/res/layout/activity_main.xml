@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Looking for ice cream workers!!"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:textSize="24sp" />
+    <ImageView
+        android:id="@+id/icecream_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginBottom="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icecream" />
+
+    <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/icecream_image"
+            android:orientation="vertical"
+       >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#E11F1F"
+            android:fontFamily="sans-serif-condensed-light"
+            android:padding="32dp"
+            android:text="Job Description: 8hours in a day at a ice cream truck, need people with communication skills"
+            android:textColor="#F6F4F4"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#673AB7"
+            android:fontFamily="sans-serif-condensed-light"
+            android:padding="32dp"
+            android:text="Im srikar, starting my own ice cream business. I have a goal to deliver best ice cream in the town."
+            android:textColor="#FAF7F7"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#4CAF50"
+            android:fontFamily="sans-serif-condensed-light"
+            android:padding="32dp"
+            android:text="Contact me using email: srikarakella001@gmail.com Phone number: 9100243338"
+            android:textColor="#F8F5F5"
+            android:textSize="16sp" />
+
+   </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="120dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Thank You"
+        android:textSize="32sp" />
+
+
+</RelativeLayout>
